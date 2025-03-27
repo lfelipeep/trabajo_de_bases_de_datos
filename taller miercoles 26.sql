@@ -2,15 +2,10 @@
 mysql> create database trabajo1;
 
 
-mysql> create table cliente(
-    -> id int,
-    -> nombre varchar(50),
-    -> telefono varchar(20),
-    -> email varchar(10));
+mysql> create table cliente( id int,nombre varchar(50),telefono varchar(20),email varchar(10));
 
  
-mysql> INSERT INTO cliente (id, nombre, telefono, email)
-    -> VALUES (25, 'juan carlos', 32357895, 'juan@gmail.com');
+mysql> INSERT INTO cliente (id, nombre, telefono, email)VALUES (25, 'juan carlos', 32357895, 'juan@gmail.com');
 
 
 mysql> alter table cliente add column total_comprado float;
